@@ -15,7 +15,7 @@ export const VideoClubSettingsPage = () => {
   return (
     <VideoClubLayoutSubPage
       title="Settings"
-      help="You can change the settings of the Refine Video Club."
+      help="You can change the settings of the Rent A Game."
       onClose={() => navigate("/video-club")}
     >
       <Container>

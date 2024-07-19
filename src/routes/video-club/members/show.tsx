@@ -48,7 +48,7 @@ export const VideoClubMemberPageShow: React.FC = () => {
   return (
     <VideoClubLayoutSubPage
       title={`${member?.first_name || ""} ${member?.last_name || ""}`}
-      help="You can see the details of the member in the Refine Video Club."
+      help="You can see the details of the member in the Rent A Game."
       onClose={() => list("members")}
       isLoading={isLoading}
     >

@@ -238,7 +238,7 @@ const pathnameToIndicatorMap: Record<
 > = {
   "video-club": {
     icon: getImagesUrl("/refine-video-club-app-icon-pixelated.png"),
-    label: "Refine Video Club",
+    label: "Rent A Game",
   },
   "rvc-website": {
     icon: getImagesUrl("/rvc-website-app-icon.png"),

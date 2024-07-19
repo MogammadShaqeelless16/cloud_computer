@@ -57,7 +57,7 @@ export const VideoClubPageBrowseTitles = () => {
     <VideoClubLayoutSubPage
       isLoading={isLoading}
       title="Browse Titles"
-      help={"You can browse all the titles in the Refine Video Club."}
+      help={"You can browse all the titles in the Rent A Game."}
       onClose={() => navigate("/video-club")}
     >
       <Container>

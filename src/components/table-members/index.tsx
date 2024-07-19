@@ -53,7 +53,7 @@ export const TableMembers = ({ selectedMember, setSelectedMember }: Props) => {
   return (
     <VideoClubLayoutSubPage
       title="Select Member"
-      help="You can browse all the members in the Refine Video Club."
+      help="You can browse all the members in the Rent A Game."
       onClose={() => navigate("/video-club")}
       isLoading={membersQueryResult?.isLoading}
     >

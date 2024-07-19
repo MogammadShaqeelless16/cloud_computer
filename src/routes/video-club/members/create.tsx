@@ -35,7 +35,7 @@ export const VideoClubMemberPageCreate = () => {
   return (
     <VideoClubLayoutSubPage
       title="Add Member"
-      help="You can add a new member to the Refine Video Club."
+      help="You can add a new member to the Rent A Game."
       onClose={() => navigate("/video-club")}
     >
       <Container>

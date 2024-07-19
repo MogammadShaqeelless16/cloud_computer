@@ -36,7 +36,7 @@ export const VideoClubMemberPageEdit = () => {
   return (
     <VideoClubLayoutSubPage
       title="Edit Member"
-      help="You can  edit the member in the Refine Video Club."
+      help="You can  edit the member in the Rent A Game."
       onClose={() => navigate("/video-club")}
       isLoading={isLoading}
     >

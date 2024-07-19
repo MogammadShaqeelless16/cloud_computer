@@ -57,7 +57,7 @@ const AppLabel = styled.div`
 
 const links = [
   {
-    label: "Refine Video Club",
+    label: "Rent A Game",
     link: "/video-club",
     iconURL: `${getImagesUrl("/refine-video-club-app-icon.png")}`,
   },

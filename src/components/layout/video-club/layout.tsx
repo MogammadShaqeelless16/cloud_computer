@@ -59,7 +59,7 @@ export const VideoClubLayout = ({ children }: PropsWithChildren) => {
   return (
     <>
       <StyledAppLayout
-        title="Refine Video Club"
+        title="Rent A Game"
         iconURL={getImagesUrl("/refine-video-club-app-icon-pixelated.png")}
         onClose={() => navigate("/")}
         onMinimize={() => navigate("/")}
@@ -129,7 +129,7 @@ export const VideoClubLayout = ({ children }: PropsWithChildren) => {
           <HomeContainer>
             <Logo
               src={getImagesUrl("/refine-video-club-emboss-logo.png")}
-              alt="refine video club logo"
+              alt="Rent A Game logo"
             />
 
             <Links>

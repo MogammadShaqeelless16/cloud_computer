@@ -38,7 +38,7 @@ export const RVCWebsitePageTitleDetails = ({ withBrowser = true }: Props) => {
 
   return (
     <Wrapper
-      title="RVC Website"
+      title="Our Team"
       onClose={() => navigate("/")}
       address={address}
     >

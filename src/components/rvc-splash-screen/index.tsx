@@ -31,7 +31,7 @@ export const RVCSplashScreen = () => {
 
   return (
     <StyledAppLayout
-      title="Refine Video Club"
+      title="Rent A Game"
       iconURL={getImagesUrl("/refine-video-club-app-icon-pixelated.png")}
       onClose={() => navigate("/")}
       onMinimize={() => navigate("/")}

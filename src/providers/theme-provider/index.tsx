@@ -30,7 +30,8 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal
   }
   body {
-    background: ${themeOriginal.desktopBackground};
+    background: url('/images/eee.jpg') no-repeat center center fixed;
+    background-size: cover;
     font-family: 'ms_sans_serif', sans-serif;
   }
   div {

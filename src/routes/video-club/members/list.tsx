@@ -50,7 +50,7 @@ export const VideoClubMemberPageList = () => {
   return (
     <VideoClubLayoutSubPage
       title="Browse Member"
-      help="You can browse all the members in the Refine Video Club."
+      help="You can browse all the members in the Rent A Game."
       onClose={() => navigate("/video-club")}
       isLoading={membersQueryResult?.isLoading}
     >

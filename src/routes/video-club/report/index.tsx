@@ -201,7 +201,7 @@ export const VideoClubReportPage = () => {
   return (
     <VideoClubLayoutSubPage
       title="Report"
-      help="You can see the report of the Refine Video Club."
+      help="You can see the report of the Rent A Game."
       isLoading={isLoading}
       onClose={() => navigate("/video-club")}
       containerStyle={{
