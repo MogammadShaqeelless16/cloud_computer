@@ -43,55 +43,6 @@ export const UnsupportedResolutionHandler = ({
 
   return (
     <>
-      <div
-        style={{
-          display: isSupported ? "none" : "flex",
-          pointerEvents: isSupported ? "unset" : "none",
-          overflow: isSupported ? "unset" : "hidden",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          position: "absolute",
-          width: "100vw",
-          height: "100vh",
-          top: "0",
-          left: "0",
-          zIndex: 9999,
-          background: "#080184",
-          backgroundColor: "#080184",
-          color: "white",
-        }}
-      >
-        <h1
-          style={{
-            fontSize: "24px",
-            textAlign: "center",
-            color: "#0300AB",
-            backgroundColor: "#AAA",
-            padding: "8px",
-            fontWeight: "bold",
-          }}
-        >
-          Windows
-        </h1>
-        <h2
-          style={{
-            fontSize: "24px",
-            lineHeight: "2",
-            textAlign: "center",
-            marginTop: "16px",
-          }}
-        >
-          Resolution not supported.
-          <div
-            style={{
-              lineHeight: "32px",
-            }}
-          >
-            This website is best browsed at resolutions 1024x768 or higher.
-          </div>
-        </h2>
-      </div>
       {children}
     </>
   );
